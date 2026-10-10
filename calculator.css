@@ -1,0 +1,108 @@
+.calc{
+    height: 600px;
+    background-color: black;
+    width: 325px;
+    border-radius: 10px;
+    padding-top: 15px;
+
+}
+.z{
+    margin-left: 280px;
+    color: azure;
+}
+.z:hover{
+    color: aqua;
+    animation-name: click;
+    animation-duration: 1s;
+}
+.head{
+    text-align: center;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    margin-top: 40px;
+    width: 298px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+}
+.head:hover{
+    animation-name: head;
+    animation-duration: 2s;
+}
+@keyframes head{
+    0%{transform: translatey(0px);}
+    50%{transform: translatey(-10px);}
+    100%{transform: translatey(0px);}
+
+}
+
+.gray,.number ,.number2,.number3{
+    margin-left:40px;
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.gr:hover,.num:hover,#divide:hover,#multiply:hover,#minus:hover,#plus:hover,#equal:hover {
+    animation-name: click;
+    animation-duration: 1s;
+}
+@keyframes click{
+    0%{transform: translatey(0px);}
+    50%{transform: translatey(-10px);}
+    100%{transform: translatey(0px);}
+}
+.gr
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: gray;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+}
+.num
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+}
+
+#divide,#multiply,#minus,#plus,#equal{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(245, 169, 5);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 32px;
+
+}
+.gr:hover{
+    background-color: chocolate;
+}
+.num:hover{
+    background-color: chocolate;
+}
+#divide:hover,#multiply:hover,#minus:hover,#plus:hover,#equal:hover{
+    background-color: chocolate;
+}

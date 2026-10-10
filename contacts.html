@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <form action="index.php" method="post"></form>
+   <h1 style="text-align: center; text-decoration: underline;" >Holiday Registration Form</h1>
+
+   <br>
+   <label for="name" style="padding-right: 38px; ">Applicant name :</label>
+   <input type="text" placeholder="first name">-
+   <input type="text" placeholder="last-name">
+   <br>
+   <label for="fname" style="padding-right: 77px;"> City name:</label>
+   <input type="text">
+   <br>
+   <label for="bday" style="padding-right: 57px;">Date of birth :</label>
+   <input type="date">
+   (DD-MM-YYYY)
+   <br>
+   <label for="mnum" style="padding-right: 68px;">Mobile no. : </label></label>
+   <input type="tel"><br>
+    <label for="email" style="padding-right: 85px;">Email id :</label>
+   <input type="email">
+   <br>
+   <label for="gender" style="padding-right: 50px;">Gender :</label>
+
+   <input type="radio" name="gender" id="Mr" value="Mr" style="margin-left: 40px;">
+   <label for="gender">Male</label>
+   <input type="radio" name="gender" id="Ms" value="Ms" style="margin-left:20px ;">
+   <label for="gender" >Female</label>
+   
+   <br>
+   <label for="dept" style="padding-right: 60px;">Reqiurements :</label>
+   <input type="checkbox" value="cse">
+   <label for="cse">BUS</label>
+    <input type="checkbox" value="it">
+   <label for="it">HOTEL ROOM</label>
+    <input type="checkbox" value="ece">
+   <label for="ece"> TOUR GUIDE</label>
+   <input type="checkbox" value="civil">
+   <label for="civil"> RENT CAR</label>
+   <br>
+   <label for="course" >PLACE :</label>
+    <select id="course" style="margin-left:97px ;">
+        <option >----------------------Select TOURIST place----------------</option>
+        <option>OOTY</option>
+        <option>KERALA BOATHOUSE</option>
+        <option>KUTRAALAM</option>
+        <option>MYSORE</option>
+        <option>KANYAKUMARI</option>
+    </select>
+   <br>
+   <label for="photo">APPLICANT photo :</label>
+   <input type="file" id="photo" accept="images/png,images/jpeg" style="margin-left:52px ;">
+   <br>
+   <label for="city" > Any Feedback :</label>
+   <input type="text" style="margin-left:50px ;">
+   <br>
+   <label for="address" >Address :</label>
+   <textarea id="address" style="margin-left:88px ;"></textarea>
+   <br>
+   <br>
+    <button type="submit" style="text-align: center; margin-left: 100px;">SUBMIT</button>
+    <button type="reset" style="text-align: center; margin-left: 110px;">RESET</button>
+</body>
+</html>

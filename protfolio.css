@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+    max-width:2500px ;
+}
+.intro{
+     display: flex;
+}
+#image{
+    display: flex;
+    position:absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 500px;
+    margin-left: 40px;
+    background-color: aqua;
+    border: 20px solid;
+    box-shadow: 0px 0px 20px 10px  aqua;
+    border-color: aqua;
+    margin-top: 100px;
+    
+}
+.head{
+    color: gold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 4em;
+    width: 2988px;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  font-family: "Hurricane", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 10px 1px 10px;
+  }
+#name{
+    height: 1000px;
+    width: 2800px;
+    font-size: 400%;
+    color: aqua;
+    background-color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 70px;
+    padding-top: 200px;
+    padding-left: 600px;
+    text-shadow: 10px 0px 10px;
+}

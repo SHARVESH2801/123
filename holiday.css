@@ -1,0 +1,78 @@
+body{
+    max-width: 2000px;
+}
+.head{
+    padding-left: 10px;
+    font-size: 3em;
+}
+.img{
+animation: bus 1s ease-in-out;
+padding: 10px;
+background-color: gold;
+margin-left: 10px;
+margin-top: 28px;
+}
+@keyframes bus{
+    from{transform: translateX(100px);}
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 32px;
+    background-color: gold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 10px;
+
+}
+.links,.h{
+    text-decoration: none;
+    font-size: 120%;
+    background-color: gold;
+}
+#H:hover,#A:hover,#C:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration:underline;
+}
+#boat,#water,#mount{
+    width: 480px;
+    height: 640px;
+}
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+    margin-top: 48px;
+    justify-content: center;
+    margin-left: 10px;
+    background-color: gold;
+    border-radius: 10px;
+
+}
+#boat:hover,#water:hover,#mount:hover{
+    animation-name: places;
+    animation-duration: 2s;
+}
+@keyframes places{
+from{transform: translateY(-0px);}
+to{transform: translateY(-40px);}
+}
+.ooty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 700px;
+    font-size: 200%;
+    padding-right: 100px;
+    border: black dotted;
+    border-radius: 32px;
+    border-width: 4px;
+}
